@@ -6,6 +6,7 @@ A simple Naive Bayes classifier implemented to classify emails as either spam or
 * 5195 unseen emails were used as a test data
 
 ### Performance
+```
 1. Performance on the development data with 100% of the training data
 1a. spam precision: 0.993088194636439
 1b. spam recall: 0.9774149659863945
@@ -27,6 +28,7 @@ C) Captured top 100 high frequency words from both Ham and Spam and deleted the 
 4d. ham precision: 0.9692206941715783
 4e. ham recall: 0.9866666666666667
 4f. ham F1 score: 0.9778658738024447
+```
 
 ## Perceptron Classifier
 A standard and averaged perceptron classifier implemented to classify emails as either spam or ham.
@@ -34,6 +36,7 @@ A standard and averaged perceptron classifier implemented to classify emails as 
 * 5195 unseen emails were used as a test data
 
 ### Performance
+```
 1. Performance of standard perceptron on the development data with 100% of the training data
 1a. spam precision: 0.9861299972803916
 1b. spam recall: 0.9866666666666667
@@ -49,6 +52,7 @@ A standard and averaged perceptron classifier implemented to classify emails as 
 2d. ham precision: 0.9684986595174263
 2e. ham recall: 0.9633333333333334
 2f. ham F1 score: 0.9659090909090909
+```
 
 ## Sequence Labeling
 Assigned dialogue act tags to sequences of utterances in conversations from corpus.
